@@ -1,0 +1,35 @@
+###
+POST http://localhost:8080/users?username=Katya&password=Password1
+
+###
+POST http://localhost:8080/users?username=Lena&password=Password1
+
+###
+GET http://localhost:8080/users
+
+###
+DELETE http://localhost:8080/users/delete/2
+
+###
+GET http://localhost:8080/users/getById/3
+
+###
+PUT http://localhost:8080/users/update/3?username=Nastya&password=Password1
+
+###
+POST http://localhost:8080/users/createPost/3?urlString=https://www.example.com&caption=i&hashtag=#yhjhjhjhjj
+
+###
+GET http://localhost:8080/users/getPosts/3
+
+###
+POST http://localhost:8080/comments/createComment/3/1?text=uiuiui
+
+###
+GET http://localhost:8080/posts/random
+
+###
+POST http://localhost:8080/posts/like/1
+
+###
+GET http://localhost:8080/posts/popular
